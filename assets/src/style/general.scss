@@ -1,0 +1,26 @@
+body {
+    background-color: #1c2023;
+    background-image: url(../img/site-bg.png);
+    background-repeat: no-repeat;
+    overflow-x: hidden;
+    background-position: center bottom;
+    min-height: 200vh;
+    @include font-geometria(10px);
+}
+
+.modal-backdrop.show {
+    opacity: .8;
+}
+
+main {
+    overflow-x: hidden;
+}
+
+.container {
+    width: 1160px;
+    padding: 0 30px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(226, 112, 112, 0.308);
+}

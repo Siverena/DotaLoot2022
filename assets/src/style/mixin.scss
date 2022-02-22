@@ -1,0 +1,48 @@
+// font//
+$main-font: 'geometria',
+'Arial',
+'sans-serif';
+@mixin font-geometria($size: 13px, $weight: 700, $color: #ffffff, $transform: 0) {
+    font-family: $main-font;
+    font-size: $size;
+    font-weight: $weight;
+    color: $color;
+    @if $transform !=0 {
+        text-transform: $transform;
+    }
+}
+
+// для градиентных кнопок
+$orange-lite: #ec6502;
+$orange-dark:#d22300;
+$ultramarine-lite:#4269fe;
+$ultramarine-dark:#0b468c;
+$blue-lite:#337aaa;
+$blue-dark:#24465d;
+$green-lite: #22b55d;
+$green-dark:#158140;
+$grey-lite: #3c404b;
+$grey-dark:#2d3038;
+@mixin btnGrandient($direction, $grname) {
+    @if $grname=="orange" {
+        $color1: $orange-lite;
+        $color2: $orange-dark;
+    }
+    @if $grname=="sapphirine" {
+        $color1: $ultramarine-lite;
+        $color2: $ultramarine-dark;
+    }
+    @if $grname=="blue" {
+        $color1: $blue-lite;
+        $color2: $blue-dark;
+    }
+    @if $grname=="green" {
+        $color1: $green-lite;
+        $color2: $green-dark;
+    }
+    @if $grname=="grey" {
+        $color1: $grey-lite;
+        $color2: $grey-dark;
+    }
+    background-image: linear-gradient($direction, $color1, $color2);
+}

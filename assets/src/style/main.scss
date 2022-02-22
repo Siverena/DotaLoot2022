@@ -1,0 +1,8 @@
+@import 'fonts.scss'; //шрифты
+@import 'reset.scss'; //сброс стилей
+@import 'mixin.scss'; //миксины и переменные
+@import 'general.scss'; //общие стили
+//-----------------------компоненты---------------//
+@import 'header.scss';
+@import 'logo.scss';
+@import 'page-nav.scss';

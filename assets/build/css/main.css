@@ -1,0 +1,265 @@
+@font-face {
+  font-family: 'geometria';
+  src: url("../font/geometria-bold.eot");
+  src: url("../font/geometria-bold.eot?#iefix") format("embedded-opentype"), url("../font/geometria-bold.woff2") format("woff2"), url("../font/geometria-bold.woff") format("woff"), url("../font/geometria-bold.ttf") format("ttf");
+  font-weight: 700;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'geometria';
+  src: url("../font/geometria-bolditalic.eot");
+  src: url("../font/geometria-bolditalic.eot?#iefix") format("embedded-opentype"), url("../font/geometria-bolditalic.woff2") format("woff2"), url("../font/geometria-bolditalic.woff") format("woff"), url("../font/geometria-bolditalic.ttf") format("ttf");
+  font-weight: 700;
+  font-style: italic; }
+
+@font-face {
+  font-family: 'geometria';
+  src: url("../font/geometria-extrabold.eot");
+  src: url("../font/geometria-extrabold.eot?#iefix") format("embedded-opentype"), url("../font/geometria-extrabold.woff2") format("woff2"), url("../font/geometria-extrabold.woff") format("woff"), url("../font/geometria-extrabold.ttf") format("ttf");
+  font-weight: 800;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'geometria';
+  src: url("../font/geometria-light.eot");
+  src: url("../font/geometria-light.eot?#iefix") format("embedded-opentype"), url("../font/geometria-light.woff2") format("woff2"), url("../font/geometria-light.woff") format("woff"), url("../font/geometria-light.ttf") format("ttf");
+  font-weight: 300;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'geometria';
+  src: url("../font/geometria-lightitalic.eot");
+  src: url("../font/geometria-lightitalic.eot?#iefix") format("embedded-opentype"), url("../font/geometria-lightitalic.woff2") format("woff2"), url("../font/geometria-lightitalic.woff") format("woff"), url("../font/geometria-lightitalic.ttf") format("ttf");
+  font-weight: 300;
+  font-style: italic; }
+
+@font-face {
+  font-family: 'geometria';
+  src: url("../font/geometria-medium.eot");
+  src: url("../font/geometria-medium.eot?#iefix") format("embedded-opentype"), url("../font/geometria-medium.woff2") format("woff2"), url("../font/geometria-medium.woff") format("woff"), url("../font/geometria-medium.ttf") format("ttf");
+  font-weight: 500;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'geometria';
+  src: url("../font/geometria-mediumitalic.eot");
+  src: url("../font/geometria-mediumitalic.eot?#iefix") format("embedded-opentype"), url("../font/geometria-mediumitalic.woff2") format("woff2"), url("../font/geometria-mediumitalic.woff") format("woff"), url("../font/geometria-mediumitalic.ttf") format("ttf");
+  font-weight: 500;
+  font-style: italic; }
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  vertical-align: baseline; }
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+blockquote,
+q {
+  quotes: none; }
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+body {
+  background-color: #1c2023;
+  background-image: url(../img/site-bg.png);
+  background-repeat: no-repeat;
+  overflow-x: hidden;
+  background-position: center bottom;
+  min-height: 200vh;
+  font-family: "geometria", "Arial", "sans-serif";
+  font-size: 10px;
+  font-weight: 700;
+  color: #ffffff; }
+
+.modal-backdrop.show {
+  opacity: .8; }
+
+main {
+  overflow-x: hidden; }
+
+.container {
+  width: 1160px;
+  padding: 0 30px;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background-color: rgba(226, 112, 112, 0.308); }
+
+.header {
+  width: 100%;
+  padding: 18px 21px;
+  background-color: #17181b;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center; }
+
+.logo {
+  width: 109px;
+  height: 73px;
+  position: relative;
+  -webkit-align-self: center;
+      -ms-flex-item-align: center;
+          align-self: center; }
+  .logo__link {
+    width: 100%;
+    height: 100%;
+    color: inherit;
+    position: relative;
+    display: block; }
+  .logo__img {
+    width: 100%; }
+  .logo__domain {
+    width: 36px;
+    height: 18px;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#ec6502), to(#d22300));
+    background-image: -o-linear-gradient(top, #ec6502, #d22300);
+    background-image: linear-gradient(180deg, #ec6502, #d22300);
+    font-size: 10px;
+    text-transform: uppercase;
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+        -ms-flex-pack: center;
+            justify-content: center; }
+
+.page-nav {
+  padding: 12px 0; }
+  .page-nav__ul {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    max-width: 57%;
+    list-style: none; }
+  .page-nav__item {
+    padding: 0 2%; }
+  .page-nav__link {
+    white-space: nowrap;
+    font-family: "geometria", "Arial", "sans-serif";
+    font-size: 13px;
+    font-weight: 700;
+    color: #ffffff;
+    text-transform: uppercase;
+    text-decoration: none; }
